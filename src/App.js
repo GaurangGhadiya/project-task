@@ -271,7 +271,7 @@ function App() {
 
   </tr>
   {isPhone &&<tr >
-    <th>Phone No.</th>
+    <th>Phone</th>
     <td >        {form2Edit ? <Form.Control type="number" value={number} onChange={(e) => setNumber(e.target.value)} /> : number}
 </td>
 
